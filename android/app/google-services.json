@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562120879761",
+    "project_id": "recommenda-e596f",
+    "storage_bucket": "recommenda-e596f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562120879761:android:52302f572e0c9966ca1930",
+        "android_client_info": {
+          "package_name": "com.example.recommenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562120879761-dl2tm2l58soi21oqliluof6is9go630t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqjirnaN2rfBo4ao2XpjOZ6b4C_H1tAsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562120879761-dl2tm2l58soi21oqliluof6is9go630t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
