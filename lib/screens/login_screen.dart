@@ -127,7 +127,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (result == 'success') {
      
-       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => const MyApp()));
+       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) =>  MyApp()));
 
     
     } else {

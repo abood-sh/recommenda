@@ -189,7 +189,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       showSnackBar(result, context);
     } else {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const MyApp()));
+          MaterialPageRoute(builder: (context) =>  MyApp()));
     }
   }
 

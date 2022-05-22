@@ -103,41 +103,43 @@ class ComparisonScreen extends StatelessWidget {
                     const SizedBox(
                       height: 50,
                     ),
-                    Row(
-                      children: [
-                        Column(
-                          children: [
-                            Row(
-                              children: [
-                                Text(
-                                  ' Product 2: ' +
-                                      value[1]['description']
-                                          .toString()
-                                          .toUpperCase(),
-                                  style: const TextStyle(
-                                      fontSize: 22,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text(
-                                  '    Price: ' + value[1]['price'].toString(),
-                                  style: TextStyle(fontSize: 22),
-                                ),
-                              ],
-                            ),
-                            Image(
-                              image: NetworkImage(value[1]['productURL']),
-                              height: 300,
-                              width: 350,
-                            ),
-                            Text(
-                              'Ratings: ' +
-                                  getRatingForComparisonTwo.toString(),
-                              style: const TextStyle(
-                                  fontSize: 22, fontWeight: FontWeight.bold),
-                            )
-                          ],
-                        ),
-                      ],
+                    SingleChildScrollView(
+                      child: Row(
+                        children: [
+                          Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    ' Product 2: ' +
+                                        value[1]['description']
+                                            .toString()
+                                            .toUpperCase(),
+                                    style: const TextStyle(
+                                        fontSize: 22,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                  Text(
+                                    '    Price: ' + value[1]['price'].toString(),
+                                    style: TextStyle(fontSize: 22),
+                                  ),
+                                ],
+                              ),
+                              Image(
+                                image: NetworkImage(value[1]['productURL']),
+                                height: 300,
+                                width: 350,
+                              ),
+                              Text(
+                                'Ratings: ' +
+                                    getRatingForComparisonTwo.toString(),
+                                style: const TextStyle(
+                                    fontSize: 22, fontWeight: FontWeight.bold),
+                              )
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 );
